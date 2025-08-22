@@ -1,0 +1,856 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 0px 55px;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.mainheader {
+    background-color: #21243d;
+}
+
+.header-desk {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 82px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 80px;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: #ffffff;
+    list-style: none;
+}
+
+
+.navbar ul a {
+    text-decoration: none;
+}
+
+.bgimg {
+    position: relative;
+    display: flex;
+}
+
+.bgimg img {
+    width: 100%;
+}
+
+.textt {
+    position: absolute;
+    bottom: 152px;
+    width: 738px;
+    color: #fff;
+}
+
+.textt p {
+    padding: 17px 0px 50px 0px;
+    font-size: 22px;
+}
+
+.title1 {
+    font-size: 124px;
+}
+
+.order {
+    border: 1px #000000 solid;
+    border-radius: 35px;
+    background-color: #21243d;
+    width: fit-content;
+    padding: 20px 90px;
+    margin: 45px 0px 0px 0px;
+}
+
+.order {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.order:hover {
+    border: 1px #000000 solid;
+    border-radius: 35px;
+    background-color: #5d361e;
+    color: rgb(0, 0, 0);
+
+}
+
+.mainhearder2 {
+    background-color: #21243d;
+}
+
+.food {
+    padding: 0px 0px 100px 0px;
+}
+
+.popmenu {
+    color: #ffffff;
+    text-align: center;
+    padding: 96px 0px;
+}
+
+.pm {
+    margin: 0px 0px 20px 0px;
+    font-size: 63.66px;
+}
+
+
+.popmenu p {
+    font-size: 25.23px;
+}
+
+.foodflex {
+    display: flex;
+    justify-content: center;
+    gap: 137px;
+    align-items: center;
+    color: #ffffff;
+}
+
+.foodone {
+    color: #ffffff;
+}
+
+.foodimg {
+    border: 1px #000000;
+    border-radius: 50%;
+}
+
+.foodone p,
+.foodtwo p,
+.foodthree p {
+    font-size: 18px;
+}
+
+.foodone,
+.foodtwo,
+.foodthree {
+    width: 22%;
+    text-align: center;
+}
+
+.header3 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.allsection {
+    display: flex;
+    padding: 180px 0px 200px 0px;
+}
+
+.titlesec {
+    min-width: 40%;
+}
+
+.titlesec h3 {
+    font-size: 31px;
+    font-weight: 300;
+}
+
+.titlesec p {
+    padding: 25px 47px 25px 0px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.socilamedia {
+    display: flex;
+    gap: 20px;
+}
+
+.footerleft {
+    min-width: 60%;
+    display: flex;
+    gap: 50px;
+    justify-content: right;
+    font-size: 23.7px;
+}
+
+.about {
+    min-width: 20%;
+
+}
+
+.about h3 {
+    padding-bottom: 20px;
+    font-size: 31px;
+    font-weight: 300;
+}
+
+.about ul li {
+    padding-bottom: 10px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.services {
+    min-width: 20%;
+}
+
+.services h3 {
+    padding-bottom: 20px;
+    font-size: 31px;
+    font-weight: 300;
+}
+
+.services ul li {
+    padding-bottom: 10px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.other {
+    min-width: 20%;
+}
+
+.other h3 {
+    padding-bottom: 20px;
+    font-size: 31px;
+    font-weight: 300;
+}
+
+.other ul li {
+    padding-bottom: 10px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.social {
+    padding: 0px 0px 10px 0px;
+}
+
+.footerleft ul a li {
+    list-style-type: none;
+
+}
+
+.footerleft ul a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footerleft ul a li:hover {
+    text-decoration: underline;
+    color: antiquewhite;
+}
+
+/* Media Query At 320px */
+@media only screen and (min-width: 320px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .mainheader {
+        display: none;
+    }
+
+    .mobile-header {
+        background-color: #21243d;
+    }
+
+    i.fa-solid.fa-bars {
+        color: #fff;
+    }
+
+    .navbar-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mob-navbar ul {
+        display: none;
+    }
+
+    .mob-navbar ul li {
+        list-style: none;
+        font-size: 16px;
+        color: #fff;
+        padding: 0px 0px 6px 6px;
+        background-color: darkorchid;
+    }
+
+    .mob-navbar ul li:hover {
+        background-color: #000;
+
+    }
+
+    form {
+        background-color: darkorchid;
+        padding: 0px 5px;
+    }
+
+    .search {
+        padding-bottom: 6px;
+        width: 100%;
+    }
+
+    .mob-navbar ul a {
+        text-decoration: none;
+    }
+
+    .bgimg {
+        display: grid;
+    }
+
+    .textt p {
+        padding: 17px 0px 20px 0px;
+        font-size: 18px;
+    }
+
+    .title1 {
+        font-size: 30px;
+        color: #21243d;
+    }
+
+    .textt {
+        background-color: #000;
+        position: initial;
+        width: 100%;
+        padding: 18px 0px 33px 0px;
+    }
+
+    .order {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .popmenu {
+        color: #ffffff;
+        padding: 25px 0px;
+    }
+
+    .popmenu p {
+        font-size: 18px;
+    }
+
+    .pm {
+        margin: 0px 0px 3px 0px;
+        font-size: 26px;
+    }
+
+    .food {
+        padding: 0px 0px 39px 0px;
+    }
+
+    .foodflex {
+        display: grid;
+        gap: 50px;
+        justify-content: space-between;
+        color: #ffffff;
+    }
+
+    .foodflex img {
+        width: 80%;
+    }
+
+    .foodone,
+    .foodtwo,
+    .foodthree {
+        width: 100%;
+    }
+
+    .allsection {
+        display: grid;
+        justify-content: center;
+        padding: 35px 0px;
+        text-align: center;
+    }
+
+    .titlesec p {
+        padding: 5px 0px 0px 0px;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .socilamedia {
+        justify-content: center;
+        display: flex;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .footerleft {
+        text-align: center;
+        min-width: 100%;
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        padding-bottom: 10px;
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    .about h3,
+    .services h3,
+    .other h3 {
+        border-bottom: 3px #fff solid;
+        padding: 3px;
+    }
+}
+
+/* media Query 375px */
+@media only screen and (min-width: 375px) {
+    .textt p {
+        font-size: 22px;
+    }
+
+    .popmenu p {
+        font-size: 13px;
+    }
+
+    .popmenu p {
+        font-size: 15px;
+    }
+
+    .foodone h3,
+    .foodtwo h3,
+    .foodthree h3 {
+        padding: 10px 0px;
+    }
+
+    .titlesec p {
+        padding: 5px 0px 0px 0px;
+        font-size: 15px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 15px;
+    }
+}
+
+/* 425 media Query */
+@media only screen and (min-width: 425px) {
+
+    .textt p {
+        font-size: 18px;
+    }
+
+    .title1 {
+        font-size: 40px;
+        color: #21243d;
+    }
+
+    .textt p {
+        font-size: 26px;
+    }
+
+    .popmenu p {
+        font-size: 18px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 17px;
+    }
+
+}
+
+/* Media Query At 768px */
+@media only screen and (min-width: 768px) {
+    .title1 {
+        font-size: 58px;
+    }
+
+    .textt p {
+        font-size: 23px;
+    }
+
+    .popmenu p {
+        font-size: 29px;
+    }
+
+    .foodone h3,
+    .foodtwo h3,
+    .foodthree h3 {
+        text-align: center;
+        padding: 25px 0px;
+        font-size: 28.08px;
+    }
+
+    .foodone p,
+    .foodtwo p,
+    .foodthree p {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .titlesec p {
+        padding: 5px 0px 0px 0px;
+        font-size: 26px;
+    }
+
+    .titlesec h3 {
+        font-size: 40px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 26px;
+
+    }
+
+    .about h3,
+    .services h3,
+    .other h3 {
+        font-size: 40px;
+    }
+}
+
+/* 1024 Media Query */
+@media only screen and (min-width: 1024px) {
+
+    .container {
+        padding: 0px 45px;
+        margin: 0 auto;
+        max-width: 1440px;
+        width: 100%;
+    }
+
+    .mainheader {
+        display: block;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+
+    .bgimg {
+        position: relative;
+        display: flex;
+    }
+
+    .textt {
+        background: transparent;
+        position: absolute;
+        bottom: 103px;
+        width: 738px;
+        color: #fff;
+    }
+
+    .title1 {
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .textt p {
+        width: 80%;
+        padding: 29px 0px;
+        font-size: 23px;
+    }
+
+    .title1 {
+        font-size: 87px;
+    }
+
+    .order {
+        border: 1px #000000 solid;
+        border-radius: 35px;
+        background-color: #21243d;
+        width: fit-content;
+        padding: 12px 40px;
+        margin: 21px 0px 0px 0px;
+    }
+
+    .order a {
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .popmenu {
+        color: #ffffff;
+        text-align: center;
+        padding: 70px 0px;
+    }
+
+    .pm {
+        margin: 0px 0px 20px 0px;
+        font-size: 45px;
+    }
+
+    .popmenu p {
+        font-size: 42px;
+    }
+
+    .popmenu p {
+        font-size: 15px;
+    }
+
+    .foodflex {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        align-items: center;
+        color: #ffffff;
+    }
+
+    .foodone,
+    .foodtwo,
+    .foodthree {
+        width: 28%;
+        text-align: center;
+    }
+
+    .foodone h3,
+    .foodtwo h3,
+    .foodthree h3 {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+
+    .foodone p,
+    .foodtwo p,
+    .foodthree p {
+        font-size: 15px;
+    }
+
+    .titlesec p {
+        padding: 20px 47px 25px 0px;
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .footerleft {
+        min-width: 64%;
+        display: flex;
+    }
+
+    .allsection {
+        display: flex;
+    }
+
+    .titlesec {
+        min-width: 40%;
+        text-align: left;
+    }
+
+    .about,
+    .services,
+    .other {
+        min-width: 33%;
+    }
+
+    .services h3,
+    .about h3,
+    .other h3 {
+        border-bottom: none;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        padding-bottom: 10px;
+        font-size: 19px;
+    }
+
+    .socilamedia {
+        justify-content: left;
+    }
+}
+
+/* 1366 Media Query */
+@media only screen and (min-width: 1366px) {
+
+    .textt {
+        bottom: 136px;
+    }
+
+    .title1 {
+        font-size: 118px;
+    }
+
+    .textt p {
+        padding: 32px 0px;
+        font-size: 27px;
+    }
+
+    .order {
+        padding: 20px 40px;
+    }
+
+    .pm {
+        font-size: 55px;
+    }
+
+    .popmenu p {
+        font-size: 20px;
+    }
+
+    .foodone,
+    .foodtwo,
+    .foodthree {
+        width: 26%;
+    }
+
+    .foodone h3,
+    .foodtwo h3,
+    .foodthree h3 {
+        font-size: 25px;
+    }
+
+    .foodone p,
+    .foodtwo p,
+    .foodthree p {
+        font-size: 19px;
+    }
+
+    .titlesec p {
+        font-size: 22px;
+    }
+
+    .footerleft {
+        font-size: 23.7px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 17px;
+    }
+
+}
+
+/* 1440 Media Query */
+@media only screen and (min-width: 1440px) {
+
+    .textt {
+        bottom: 141px;
+    }
+
+    .title1 {
+        font-size: 125px;
+    }
+
+    .textt p {
+        padding: 41px 0px;
+    }
+
+    .foodone p,
+    .foodtwo p,
+    .foodthree p {
+        font-size: 20px;
+    }
+
+    .titlesec p {
+        font-size: 24px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 22px;
+    }
+}
+
+/* 1920 media Query */
+@media only screen and (min-width: 1920px) {
+
+    .container {
+        max-width: 1920px;
+    }
+
+    .navbar ul {
+        gap: 125px;
+    }
+
+    .navbar ul li {
+        font-size: 35px;
+    }
+
+    .textt {
+        width: 55%;
+        bottom: 226px;
+    }
+
+    .textt p {
+        width: 73%;
+        padding: 70px 0px;
+        font-size: 34px;
+    }
+
+    .title1 {
+        font-size: 166px;
+    }
+
+
+    .order {
+        border-radius: 45px;
+        padding: 24px 80px;
+        margin: 19px 0px 0px 0px;
+        font-size: 29px;
+    }
+
+    .popmenu p {
+        font-size: 30px;
+    }
+
+    .foodone h3,
+    .foodtwo h3,
+    .foodthree h3 {
+        font-size: 30px;
+    }
+
+    .foodone p,
+    .foodtwo p,
+    .foodthree p {
+        font-size: 27px;
+    }
+
+    .allsection {
+        padding: 110px 0px 85px 0px;
+    }
+
+    .titlesec {
+        padding-bottom: 60px;
+    }
+
+    .titlesec p {
+        font-size: 28px;
+    }
+
+    .footerleft {
+        min-width: 60%;
+        font-size: 23px;
+    }
+
+    .about ul li,
+    .services ul li,
+    .other ul li {
+        font-size: 24px;
+    }
+
+}
